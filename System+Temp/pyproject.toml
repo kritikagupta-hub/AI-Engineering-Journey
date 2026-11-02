@@ -1,0 +1,9 @@
+[project]
+name = "system-temperature"
+version = "0.1.0"
+description = "Understanding system messages and temperature in LLM calls"
+requires-python = ">=3.12"
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.3",
+]
